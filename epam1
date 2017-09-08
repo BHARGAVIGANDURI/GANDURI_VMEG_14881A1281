@@ -76,10 +76,6 @@ public class Student implements Comparable {
         return (getId() < g.getId() ? -1 : getId() == g.getId() ? 0 : 1);
 	}
 }
-
-//
-
-//////
 public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
@@ -150,10 +146,7 @@ public static void main(String[] args) {
 //			
 //		}
 		
-		// compute and print out average GPA
-		// print out all students' name, ID and GPA
-		
-	}
+		}
 
 }
 
